@@ -1,5 +1,31 @@
-# README
+# react-reg-test-sample
 
+visual regression testing demo with React.js. 
+
+This demo uses the following:
+
+* [karma-nightmare](https://github.com/bokuweb/karma-nightmare): Nightmare launcher, which allows to capture Karma's state to .png file in my test code.
+* [reg-cli](https://github.com/bokuweb/reg-cli): A simple images comparison tool.
+
+## report demo
+
+https://bokuweb.github.io/react-reg-test-sample/report.html
+
+## Install and run
+
+```sh
+npm i
+npm run test
+```
+
+So .png files are generated into the `./docs/snapshot` directory.
+And execute the following, reg-cli compares between the `snapshot` dir and the `expected` dir.    
+It outputs a HTML report to `docs/report.html`.
+
+
+```sh
+npm run reg
+```
 
 ## License
 
