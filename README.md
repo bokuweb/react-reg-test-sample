@@ -33,6 +33,10 @@ To update expected images, please execute the following command.
 npm run reg:update
 ```
 
+## Related project
+
+* https://github.com/Quramy/karma-nightmare-angular-demo
+
 ## License
 
 The MIT License (MIT)
