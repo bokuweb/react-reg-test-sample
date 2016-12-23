@@ -27,6 +27,12 @@ It outputs a HTML report to `docs/report.html`.
 npm run reg
 ```
 
+To update expected images, please execute the following command.
+
+```sh
+npm run reg:update
+```
+
 ## License
 
 The MIT License (MIT)
