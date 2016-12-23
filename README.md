@@ -7,7 +7,7 @@ This demo uses the following:
 * [karma-nightmare](https://github.com/bokuweb/karma-nightmare): Nightmare launcher, which allows to capture Karma's state to .png file in my test code.
 * [reg-cli](https://github.com/bokuweb/reg-cli): A simple images comparison tool.
 
-## report demo
+## Demo
 
 https://bokuweb.github.io/react-reg-test-sample/report.html
 
